@@ -1,6 +1,6 @@
 sscws>=2.3.13
 cdasws>=1.7.41
-cdflib==0.4.4
+cdflib<1.0.1   # to avoid cdf_to_xarray change
 numpy>=1.20.0
 matplotlib>=3.1.2
 xarray>=0.16.2
